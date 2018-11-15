@@ -1,0 +1,1452 @@
+[ 2018-04-26T09:25:52+08:00 ] ::1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021097s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001352s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.029252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016943s ]
+
+[ 2018-04-26T09:25:59+08:00 ] ::1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002262s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026924s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( is_delete=0 )  [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `ds_category` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `ds_category`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `ds_brand` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `ds_brand`  [ RunTime:0.0035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001416s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002302s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.136655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.138027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.028114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.040056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017977s ]
+
+[ 2018-04-26T09:26:01+08:00 ] ::1 /index.php/Admin/Goods/products/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008898s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002347s ]
+NOTIC: [8] Undefined variable: res F:\dianshang\Application\Runtime\Cache\Admin\88a3a66ff4693bec0bfe80ae91152b72.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007913s ]
+
+[ 2018-04-26T09:26:03+08:00 ] ::1 /index.php/Admin/Goods/addpro/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005488s ]
+SQL: SHOW COLUMNS FROM `ds_goods_attr` [ RunTime:0.0479s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) ORDER BY a.attr_id  [ RunTime:0.0043s ]
+SQL: SELECT a.attr_id,b.attr_name FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) GROUP BY a.attr_id  [ RunTime:0.0034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000593s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001723s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014041s ]
+
+[ 2018-04-26T09:26:50+08:00 ] ::1 /index.php/Admin/Goods/doaddpro.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000410s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017195s ]
+SQL: SHOW COLUMNS FROM `ds_goods_attr` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ds_goods_attr` WHERE ( attr_id='6' and attr_value='粉色' ) LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: price F:\dianshang\Application\Admin\Controller\GoodsController.class.php 第 190 行.
+SQL: SELECT * FROM `ds_goods_attr` WHERE ( attr_id='7' and attr_value='50' ) LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: price F:\dianshang\Application\Admin\Controller\GoodsController.class.php 第 190 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005438s ]
+
+[ 2018-04-26T09:28:23+08:00 ] ::1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014239s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( is_delete=0 )  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `ds_category` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ds_category`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `ds_brand` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ds_brand`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000760s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001602s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005844s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012506s ]
+
+[ 2018-04-26T09:28:29+08:00 ] ::1 /index.php/Admin/Goods/products/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000374s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.046010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.048655s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000751s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.012300s ]
+NOTIC: [8] Undefined variable: res F:\dianshang\Application\Runtime\Cache\Admin\88a3a66ff4693bec0bfe80ae91152b72.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.254766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.256373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014150s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016045s ]
+
+[ 2018-04-26T09:28:31+08:00 ] ::1 /index.php/Admin/Goods/addpro/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000193s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007918s ]
+SQL: SHOW COLUMNS FROM `ds_goods_attr` [ RunTime:0.0034s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) ORDER BY a.attr_id  [ RunTime:0.0034s ]
+SQL: SELECT a.attr_id,b.attr_name FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) GROUP BY a.attr_id  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000573s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001496s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070123s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004941s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007193s ]
+
+[ 2018-04-26T09:28:46+08:00 ] ::1 /index.php/Admin/Goods/doaddpro.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000197s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007718s ]
+SQL: SHOW COLUMNS FROM `ds_goods_attr` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ds_goods_attr` WHERE ( attr_id='6' and attr_value='粉色' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ds_goods_attr` WHERE ( attr_id='7' and attr_value='50' ) LIMIT 1   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006742s ]
+
+[ 2018-04-26T09:35:15+08:00 ] ::1 /index.php/Admin/Brand/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000417s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010623s ]
+SQL: SHOW COLUMNS FROM `ds_brand` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ds_brand`  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000819s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001695s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015263s ]
+
+[ 2018-04-26T09:35:18+08:00 ] ::1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002454s ]
+INFO: [ app_init ] --END-- [ RunTime:0.053385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009703s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( is_delete=0 )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ds_category` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `ds_category`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `ds_brand` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ds_brand`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.013574s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.014929s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.129791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017399s ]
+
+[ 2018-04-26T09:35:20+08:00 ] ::1 /index.php/Admin/Goods/products/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006606s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000697s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002066s ]
+NOTIC: [8] Undefined variable: res F:\dianshang\Application\Runtime\Cache\Admin\88a3a66ff4693bec0bfe80ae91152b72.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.177320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.178451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.055198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.055892s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008682s ]
+
+[ 2018-04-26T09:35:22+08:00 ] ::1 /index.php/Admin/Goods/addpro/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005352s ]
+SQL: SHOW COLUMNS FROM `ds_goods_attr` [ RunTime:0.0022s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) ORDER BY a.attr_id  [ RunTime:0.0026s ]
+SQL: SELECT a.attr_id,b.attr_name FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) GROUP BY a.attr_id  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000361s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000981s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004149s ]
+
+[ 2018-04-26T09:35:39+08:00 ] ::1 /index.php/Admin/Goods/doaddpro.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005306s ]
+SQL: SHOW COLUMNS FROM `ds_goods_attr` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ds_goods_attr` WHERE ( attr_id='6' and attr_value='粉色' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ds_goods_attr` WHERE ( attr_id='7' and attr_value='50' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0033s ]
+SQL: INSERT INTO `ds_products` (`goods_id`,`product_sn`,`attr_list`,`sku`,`goods_price`) VALUES ('1','hzpjmkh100001','粉色,50','100','550') [ RunTime:0.0267s ]
+NOTIC: [8] Use of undefined constant products - assumed 'products' F:\dianshang\Application\Admin\Controller\GoodsController.class.php 第 203 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000675s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001657s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004919s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005645s ]
+
+[ 2018-04-26T09:35:41+08:00 ] ::1 /index.php/Admin/Goods/products
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000190s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008557s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002179s ]
+NOTIC: [8] Undefined variable: res F:\dianshang\Application\Runtime\Cache\Admin\88a3a66ff4693bec0bfe80ae91152b72.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007341s ]
+
+[ 2018-04-26T09:35:45+08:00 ] ::1 /index.php/Admin/Goods/addpro.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004496s ]
+SQL: SHOW COLUMNS FROM `ds_goods_attr` [ RunTime:0.0030s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY a.attr_id' at line 1
+
+[ 2018-04-26T09:36:08+08:00 ] ::1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000193s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010686s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( is_delete=0 )  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ds_category` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `ds_category`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ds_brand` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ds_brand`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.146708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.148359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003980s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.029423s ]
+
+[ 2018-04-26T09:36:12+08:00 ] ::1 /index.php/Admin/Goods/products/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000434s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006742s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000931s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002088s ]
+NOTIC: [8] Undefined variable: res F:\dianshang\Application\Runtime\Cache\Admin\88a3a66ff4693bec0bfe80ae91152b72.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.026533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010234s ]
+
+[ 2018-04-26T09:37:29+08:00 ] ::1 /index.php/Admin/Goods/addpro/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000159s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019730s ]
+SQL: SHOW COLUMNS FROM `ds_goods_attr` [ RunTime:0.0026s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) ORDER BY a.attr_id  [ RunTime:0.0026s ]
+SQL: SELECT a.attr_id,b.attr_name FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) GROUP BY a.attr_id  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002973s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003735s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.129993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.132096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015684s ]
+
+[ 2018-04-26T09:37:40+08:00 ] ::1 /index.php/Admin/Goods/doaddpro.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000198s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007736s ]
+SQL: SHOW COLUMNS FROM `ds_goods_attr` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `ds_goods_attr` WHERE ( attr_id='6' and attr_value='粉色' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ds_goods_attr` WHERE ( attr_id='7' and attr_value='100' ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0068s ]
+SQL: INSERT INTO `ds_products` (`goods_id`,`product_sn`,`attr_list`,`sku`,`goods_price`) VALUES ('1','hzpjmkh100002','粉色,100','80','600') [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000575s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001497s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008792s ]
+
+[ 2018-04-26T09:37:42+08:00 ] ::1 /index.php/Admin/Goods/products/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000222s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007805s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000891s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001907s ]
+NOTIC: [8] Undefined variable: res F:\dianshang\Application\Runtime\Cache\Admin\88a3a66ff4693bec0bfe80ae91152b72.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007105s ]
+
+[ 2018-04-26T09:37:44+08:00 ] ::1 /index.php/Admin/Goods/addpro/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005627s ]
+SQL: SHOW COLUMNS FROM `ds_goods_attr` [ RunTime:0.0031s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) ORDER BY a.attr_id  [ RunTime:0.0026s ]
+SQL: SELECT a.attr_id,b.attr_name FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) GROUP BY a.attr_id  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000452s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006535s ]
+
+[ 2018-04-26T09:38:06+08:00 ] ::1 /index.php/Admin/Goods/doaddpro.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006078s ]
+SQL: SHOW COLUMNS FROM `ds_goods_attr` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `ds_goods_attr` WHERE ( attr_id='6' and attr_value='粉色' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ds_goods_attr` WHERE ( attr_id='7' and attr_value='150' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0037s ]
+SQL: INSERT INTO `ds_products` (`goods_id`,`product_sn`,`attr_list`,`sku`,`goods_price`) VALUES ('1','hzpjmkh100003','粉色,150','60','510') [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000621s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001847s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007072s ]
+
+[ 2018-04-26T09:38:07+08:00 ] ::1 /index.php/Admin/Goods/products/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000189s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006145s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000843s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002010s ]
+NOTIC: [8] Undefined variable: res F:\dianshang\Application\Runtime\Cache\Admin\88a3a66ff4693bec0bfe80ae91152b72.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006202s ]
+
+[ 2018-04-26T09:38:10+08:00 ] ::1 /index.php/Admin/Goods/addpro/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000225s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005902s ]
+SQL: SHOW COLUMNS FROM `ds_goods_attr` [ RunTime:0.0029s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) ORDER BY a.attr_id  [ RunTime:0.0026s ]
+SQL: SELECT a.attr_id,b.attr_name FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) GROUP BY a.attr_id  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000527s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001722s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008425s ]
+
+[ 2018-04-26T09:38:25+08:00 ] ::1 /index.php/Admin/Goods/doaddpro.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000197s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006575s ]
+SQL: SHOW COLUMNS FROM `ds_goods_attr` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `ds_goods_attr` WHERE ( attr_id='6' and attr_value='橘色' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ds_goods_attr` WHERE ( attr_id='7' and attr_value='50' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0065s ]
+SQL: INSERT INTO `ds_products` (`goods_id`,`product_sn`,`attr_list`,`sku`,`goods_price`) VALUES ('1','hzpjmkh100004','橘色,50','200','150') [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000630s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001845s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005128s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006076s ]
+
+[ 2018-04-26T09:38:26+08:00 ] ::1 /index.php/Admin/Goods/products/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000191s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018865s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000732s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001573s ]
+NOTIC: [8] Undefined variable: res F:\dianshang\Application\Runtime\Cache\Admin\88a3a66ff4693bec0bfe80ae91152b72.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005705s ]
+
+[ 2018-04-26T09:41:29+08:00 ] ::1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007618s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( is_delete=0 )  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `ds_category` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ds_category`  [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `ds_brand` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ds_brand`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001986s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.270765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.271822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012307s ]
+
+[ 2018-04-26T09:41:32+08:00 ] ::1 /index.php/Admin/Goods/products/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005726s ]
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `ds_products` WHERE ( goods_id=1 )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000649s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001421s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010759s ]
+
+[ 2018-04-26T09:42:16+08:00 ] ::1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.015142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016876s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( is_delete=0 )  [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `ds_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ds_category`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `ds_brand` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ds_brand`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002580s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008015s ]
+
+[ 2018-04-26T09:42:17+08:00 ] ::1 /index.php/Admin/Goods/products/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000311s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015327s ]
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `ds_products` WHERE ( goods_id=1 )  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003997s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004784s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015500s ]
+
+[ 2018-04-26T09:44:49+08:00 ] ::1 /index.php/Admin/Goods/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008333s ]
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0024s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2018-04-26T09:44:58+08:00 ] ::1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000963s ]
+INFO: [ app_init ] --END-- [ RunTime:0.060996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031466s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( is_delete=0 )  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `ds_category` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ds_category`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `ds_brand` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `ds_brand`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000972s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001857s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.183262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.184186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011887s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006856s ]
+
+[ 2018-04-26T10:06:42+08:00 ] ::1 /index.php/Admin/Goods/products/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007993s ]
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `ds_products` WHERE ( goods_id=1 )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000820s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001768s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008576s ]
+
+[ 2018-04-26T10:06:48+08:00 ] ::1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005452s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( is_delete=0 )  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `ds_category` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ds_category`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `ds_brand` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `ds_brand`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007786s ]
+
+[ 2018-04-26T10:06:52+08:00 ] ::1 /index.php/Admin/Goods/gallery/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006376s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000696s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001579s ]
+NOTIC: [8] Undefined variable: res F:\dianshang\Application\Runtime\Cache\Admin\7360dde30db450f3037a4afd17019980.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.160279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.161064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005221s ]
+
+[ 2018-04-26T10:06:54+08:00 ] ::1 /index.php/Admin/Goods/addgallery/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000180s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005242s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000522s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001431s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006186s ]
+
+[ 2018-04-26T10:07:17+08:00 ] ::1 /index.php/Admin/Goods/doaddtu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000186s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008883s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\dianshang\asdfgasdfz\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath F:\dianshang\Application\Admin\Controller\GoodsController.class.php 第 129 行.
+NOTIC: [8] Undefined index: savename F:\dianshang\Application\Admin\Controller\GoodsController.class.php 第 129 行.
+NOTIC: [8] Undefined index: savepath F:\dianshang\Application\Admin\Controller\GoodsController.class.php 第 130 行.
+NOTIC: [8] Undefined index: savename F:\dianshang\Application\Admin\Controller\GoodsController.class.php 第 130 行.
+ERR: 不存在的图像文件
+
+[ 2018-04-26T10:08:43+08:00 ] ::1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006508s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( is_delete=0 )  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `ds_category` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ds_category`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `ds_brand` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `ds_brand`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000831s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001674s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.150718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.036746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.038090s ]
+
+[ 2018-04-26T10:08:45+08:00 ] ::1 /index.php/Admin/Goods/gallery/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000178s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000496s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001053s ]
+NOTIC: [8] Undefined variable: res F:\dianshang\Application\Runtime\Cache\Admin\7360dde30db450f3037a4afd17019980.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004914s ]
+
+[ 2018-04-26T10:08:47+08:00 ] ::1 /index.php/Admin/Goods/addgallery/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000162s ]
+INFO: [ app_init ] --END-- [ RunTime:0.038168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011871s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000429s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012266s ]
+
+[ 2018-04-26T10:09:04+08:00 ] ::1 /index.php/Admin/Goods/doaddtu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003696s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\dianshang\asdfgasdfz\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath F:\dianshang\Application\Admin\Controller\GoodsController.class.php 第 130 行.
+NOTIC: [8] Undefined index: savename F:\dianshang\Application\Admin\Controller\GoodsController.class.php 第 130 行.
+NOTIC: [8] Undefined index: savepath F:\dianshang\Application\Admin\Controller\GoodsController.class.php 第 131 行.
+NOTIC: [8] Undefined index: savename F:\dianshang\Application\Admin\Controller\GoodsController.class.php 第 131 行.
+ERR: 不存在的图像文件
+
+[ 2018-04-26T10:09:17+08:00 ] ::1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000190s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016493s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( is_delete=0 )  [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `ds_category` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ds_category`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `ds_brand` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ds_brand`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001330s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002495s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.154694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.155706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022705s ]
+
+[ 2018-04-26T10:09:22+08:00 ] ::1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010142s ]
+SQL: SHOW COLUMNS FROM `ds_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ds_category`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `ds_brand` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ds_brand`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000978s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001948s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018748s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.034709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.045118s ]
+
+[ 2018-04-26T10:09:25+08:00 ] ::1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.044954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.029058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030995s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( is_delete=0 )  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `ds_category` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `ds_category`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `ds_brand` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ds_brand`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002598s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.028924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029794s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010958s ]
+
+[ 2018-04-26T10:09:27+08:00 ] ::1 /index.php/Admin/Goods/gallery/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013883s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000694s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001673s ]
+NOTIC: [8] Undefined variable: res F:\dianshang\Application\Runtime\Cache\Admin\7360dde30db450f3037a4afd17019980.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018726s ]
+
+[ 2018-04-26T10:09:28+08:00 ] ::1 /index.php/Admin/Goods/addgallery/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000265s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006851s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000768s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001940s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003988s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006928s ]
+
+[ 2018-04-26T10:10:01+08:00 ] ::1 /index.php/Admin/Goods/doaddtu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004227s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\dianshang\asdfgasdfz\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath F:\dianshang\Application\Admin\Controller\GoodsController.class.php 第 130 行.
+NOTIC: [8] Undefined index: savename F:\dianshang\Application\Admin\Controller\GoodsController.class.php 第 130 行.
+NOTIC: [8] Undefined index: savepath F:\dianshang\Application\Admin\Controller\GoodsController.class.php 第 131 行.
+NOTIC: [8] Undefined index: savename F:\dianshang\Application\Admin\Controller\GoodsController.class.php 第 131 行.
+ERR: 不存在的图像文件
+
+[ 2018-04-26T10:32:48+08:00 ] ::1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006837s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( is_delete=0 )  [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `ds_category` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `ds_category`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ds_brand` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `ds_brand`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001484s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002863s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011221s ]
+
+[ 2018-04-26T10:32:52+08:00 ] ::1 /index.php/Admin/Goods/gallery/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000192s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006881s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000835s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002117s ]
+NOTIC: [8] Undefined variable: res F:\dianshang\Application\Runtime\Cache\Admin\7360dde30db450f3037a4afd17019980.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005981s ]
+
+[ 2018-04-26T10:32:54+08:00 ] ::1 /index.php/Admin/Goods/addgallery/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006518s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000634s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001706s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006838s ]
+
+[ 2018-04-26T10:33:01+08:00 ] ::1 /index.php/Admin/Goods/doaddtu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000691s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005891s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\dianshang\asdfgasdfz\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `ds_goods_gallery` [ RunTime:0.0039s ]
+SQL: INSERT INTO `ds_goods_gallery` (`goods_id`,`img_desc`,`original_img`,`thumb_img`) VALUES ('1','粉色口红','2018-04-26/5ae13a5d60a1c.png','2018-04-26/s5ae13a5d60a1c.png') [ RunTime:0.0230s ]
+NOTIC: [8] Undefined variable: goods_id F:\dianshang\Application\Admin\Controller\GoodsController.class.php 第 234 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000647s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001632s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005873s ]
+
+[ 2018-04-26T10:33:03+08:00 ] ::1 /index.php/Admin/Goods/gallery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005349s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000758s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001647s ]
+NOTIC: [8] Undefined variable: res F:\dianshang\Application\Runtime\Cache\Admin\7360dde30db450f3037a4afd17019980.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005760s ]
+
+[ 2018-04-26T10:36:02+08:00 ] ::1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000208s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030709s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002008s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003035s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006884s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011309s ]
+
+[ 2018-04-26T10:36:03+08:00 ] ::1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000208s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009872s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( is_delete=0 )  [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `ds_category` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ds_category`  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `ds_brand` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ds_brand`  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001834s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011728s ]
+
+[ 2018-04-26T10:36:05+08:00 ] ::1 /index.php/Admin/Goods/gallery/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000214s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005085s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002398s ]
+NOTIC: [8] Undefined variable: res F:\dianshang\Application\Runtime\Cache\Admin\7360dde30db450f3037a4afd17019980.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007158s ]
+
+[ 2018-04-26T10:37:32+08:00 ] ::1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000194s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010494s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( is_delete=0 )  [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `ds_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ds_category`  [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `ds_brand` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `ds_brand`  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001934s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010465s ]
+
+[ 2018-04-26T10:37:33+08:00 ] ::1 /index.php/Admin/Goods/gallery/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.004336s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010198s ]
+SQL: SHOW COLUMNS FROM `ds_goods_gallery` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ds_goods_gallery` WHERE ( goods_id=1 )  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001376s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002654s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005185s ]
+
+[ 2018-04-26T10:38:59+08:00 ] ::1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000231s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016027s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( is_delete=0 )  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `ds_category` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ds_category`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `ds_brand` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ds_brand`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002393s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.152401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026498s ]
+
+[ 2018-04-26T10:39:00+08:00 ] ::1 /index.php/Admin/Goods/gallery/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009789s ]
+SQL: SHOW COLUMNS FROM `ds_goods_gallery` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ds_goods_gallery` WHERE ( goods_id=1 )  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005821s ]
+
+[ 2018-04-26T10:39:53+08:00 ] ::1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000342s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018451s ]
+SQL: SHOW COLUMNS FROM `ds_category` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ds_category`  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ds_category` WHERE ( parent_id=0 )  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000950s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002023s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008346s ]
+
+[ 2018-04-26T10:40:11+08:00 ] ::1 /index.php/Admin/Brand/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000196s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006112s ]
+SQL: SHOW COLUMNS FROM `ds_brand` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ds_brand`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003272s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009636s ]
+
+[ 2018-04-26T10:40:51+08:00 ] ::1 /index.php/Admin/Type/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000189s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010172s ]
+SQL: SHOW COLUMNS FROM `ds_goods_type` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `ds_goods_type`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000926s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002427s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.151739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.021183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.040470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024668s ]
+
+[ 2018-04-26T10:41:05+08:00 ] ::1 /index.php/Admin/Type/attribute.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000191s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008860s ]
+SQL: SHOW COLUMNS FROM `ds_attribute` [ RunTime:0.0028s ]
+SQL: SELECT * FROM ds_attribute a INNER JOIN ds_goods_type b on a.goods_type_id=b.goods_type_id   [ RunTime:0.0162s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002678s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.027325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.029614s ]
+
+[ 2018-04-26T10:41:56+08:00 ] ::1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000195s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007655s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( is_delete=0 )  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `ds_category` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `ds_category`  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ds_brand` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ds_brand`  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002526s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003879s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.033053s ]
+
+[ 2018-04-26T10:42:55+08:00 ] ::1 /index.php/Admin/Goods/gallery/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000369s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005763s ]
+SQL: SHOW COLUMNS FROM `ds_goods_gallery` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `ds_goods_gallery` WHERE ( goods_id=1 )  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000917s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007486s ]
+

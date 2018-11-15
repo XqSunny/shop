@@ -1,0 +1,30 @@
+[ 2018-05-03T08:54:07+08:00 ] ::1 /Public/Home/pc/~page/welcome+base.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002866s ]
+ERR: 无法加载模块:Public
+
+[ 2018-05-03T08:54:13+08:00 ] ::1 /Public/Home/pc/~page/welcome+base.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000305s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005157s ]
+ERR: 无法加载模块:Public
+
+[ 2018-05-03T08:54:14+08:00 ] ::1 /pc/jsmin/page/welcome.js?1607170150.25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002096s ]
+ERR: 无法加载模块:Pc
+
+[ 2018-05-03T08:54:14+08:00 ] ::1 /pc/jsmin/base.js?1607170150.25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002284s ]
+ERR: 无法加载模块:Pc
+
+[ 2018-05-03T11:23:37+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003898s ]
+ERR: 无法加载模块:Favicon
+

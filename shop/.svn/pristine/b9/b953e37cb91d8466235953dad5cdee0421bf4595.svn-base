@@ -1,0 +1,78 @@
+[ 2018-05-05T08:52:14+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000187s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003155s ]
+ERR: 无法加载模块:Favicon
+
+[ 2018-05-05T08:52:28+08:00 ] ::1 /Public/Home/pc/~page/welcome+base.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000179s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002917s ]
+ERR: 无法加载模块:Public
+
+[ 2018-05-05T08:52:30+08:00 ] ::1 /pc/jsmin/base.js?1607170150.25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000195s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003052s ]
+ERR: 无法加载模块:Pc
+
+[ 2018-05-05T08:52:30+08:00 ] ::1 /pc/jsmin/page/welcome.js?1607170150.25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000405s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008021s ]
+ERR: 无法加载模块:Pc
+
+[ 2018-05-05T08:52:47+08:00 ] ::1 /Public/Home/setPersonal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000200s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003224s ]
+ERR: 无法加载模块:Public
+
+[ 2018-05-05T08:53:16+08:00 ] ::1 /user/aj/loginconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002368s ]
+ERR: 无法加载模块:User
+
+[ 2018-05-05T08:53:16+08:00 ] ::1 /user/aj/loginconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000239s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003062s ]
+ERR: 无法加载模块:User
+
+[ 2018-05-05T08:53:16+08:00 ] ::1 /Public/Home//login/7d026282ff00a259b6a7b90eee6d_48_48.c5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002591s ]
+ERR: 无法加载模块:Public
+
+[ 2018-05-05T08:53:21+08:00 ] ::1 /user/aj/loginconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000185s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003377s ]
+ERR: 无法加载模块:User
+
+[ 2018-05-05T08:53:25+08:00 ] ::1 /user/aj/loginconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000218s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003239s ]
+ERR: 无法加载模块:User
+
+[ 2018-05-05T08:53:25+08:00 ] ::1 /user/aj/loginconfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000188s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003046s ]
+ERR: 无法加载模块:User
+
+[ 2018-05-05T08:53:29+08:00 ] ::1 /user/aj/getToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000179s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002753s ]
+ERR: 无法加载模块:User
+
+[ 2018-05-05T08:53:32+08:00 ] ::1 /Public/Home/pc/~page/welcome+base.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000819s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003954s ]
+ERR: 无法加载模块:Public
+

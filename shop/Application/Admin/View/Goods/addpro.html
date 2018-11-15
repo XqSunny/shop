@@ -1,0 +1,22 @@
+<html>
+	<head>
+	<meta charset="utf-8">
+	</head>
+	<body>
+		<form action="{:U('Goods/doaddpro')}" method="post">
+		<input type="hidden" name="goods_id" value="{$goods_id}">
+		货号:<input type='text' name="product_sn">
+		<foreach name="res1" item="v1">
+			{$v1.attr_name}:
+			<foreach name="res" item="v">
+				<if condition="$v1['attr_id'] eq $v['attr_id']">
+				<input type="radio" name="attr_list[{$v.attr_id}]" value="{$v.attr_value}">{$v.attr_value}  &nbsp;&nbsp;
+				</if>
+			</foreach>
+			<br/>
+		</foreach>
+		库存:<input name="sku">
+		<input type='submit' value="添加">
+		</form>
+	</body>
+</html>
