@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<title>购物车</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<form action="{:U('Goods/buy')}" method="post">
+			<table>
+				<foreach name="res" item="v" key="k">
+				<tr>
+					<td><input type="hidden" name="cart_id" value="{$v.cart_id}"></td>
+					<td><span><img src=""></span></td>
+					<td>{$v['goods_name']|urldecode}</td>
+					<td>{$v.goods_attr|urldecode}</td>
+					<td>原价：{$v.market_price}   现价：{$v.goods_price}</td>
+					<td><button>-</button><input type="text" name="number" value="{$v.buy_number}"/><button>+</button></td>
+					<td>￥{$v['goods_price']*$v['buy_number']}</td>
+					<input type="hidden" name="goods_amount" value="{$v['goods_price']*$v['buy_number']}">
+					
+				</tr>
+				</foreach>
+				<tr>
+					<td>收货地址：
+					<div>
+						<span id="guo1">
+							<select id="guo" name="country" onchange="dong(this,1)">
+							<option value="0">未选择</option >
+							<foreach name="res3" item="v3">
+							<option value="{$v3.region_id}">{$v3.region_name}</option >
+							</foreach>
+							</select>
+						</span>
+						
+					</div>
+					</td>
+				</tr>
+				<tr>
+				<td>详细地址：<textarea name="address">
+				</textarea></td>
+				</tr>
+				<tr>
+				<td>邮编：<input name="zipcode"/></td>
+				</tr>
+				<tr>
+				<td>姓名：<input name="consignee"/></td>
+				</tr>
+				<tr>
+				<td>手机号：<input name="mobile"/></td>
+				</tr>
+				<tr>
+				<td>配送方式：<foreach name='res1' item='v1'><input type="radio" name="shipping_id" value="{$v1.shipping_id}">{$v1.shipping_name}</foreach></td>
+				</tr>
+				<tr>
+					<td>支付方式：<foreach name='res2' item='v2'><input type="radio" name="pay_id" value="{$v2.pay_id}">{$v2.pay_name}</foreach></td>
+				</tr>
+				<tr>
+					<td>应付：￥{$v['goods_price']*$v['buy_number']}<input type="hidden" name="order_amount" value="{$v['goods_price']*$v['buy_number']}"></td>
+				</tr>
+				<tr>
+					<td>
+					留言：<textarea name="message">
+					</textarea>
+					</td>
+				</tr>
+			</table>
+			<input type="submit" value="提交订单">
+		</form>
+	</body>
+	<script type="text/javascript" src="__Admin__js/jquery.min.js"></script>
+	<script>
+		function dong(obj,ji){
+			var id = $(obj).val();
+			$.post("{:U('Goods/dong')}","id="+id+"&type="+ji,function(res){
+				//删除同级后面的元素
+				$(obj).nextAll().remove();
+				//将数据压入到标签内 html 清空写入  append 写入原有内容后
+				$("#guo1").append(res);
+			})
+		}
+	</script>
+</html>

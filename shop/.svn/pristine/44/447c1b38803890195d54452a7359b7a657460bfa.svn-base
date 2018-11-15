@@ -1,0 +1,18 @@
+[ 2018-04-28T08:50:14+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002320s ]
+ERR: 无法加载模块:Favicon
+
+[ 2018-04-28T08:52:12+08:00 ] ::1 /search/catalog/10058864?action=clothing&mt=12.11822.r118163.14630
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003504s ]
+ERR: 无法加载模块:Search
+
+[ 2018-04-28T09:32:27+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002108s ]
+ERR: 无法加载模块:Favicon
+

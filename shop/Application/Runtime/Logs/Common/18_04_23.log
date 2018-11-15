@@ -1,0 +1,204 @@
+[ 2018-04-23T09:19:14+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000196s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006229s ]
+ERR: 无法加载模块:Favicon
+
+[ 2018-04-23T09:52:07+08:00 ] ::1 /pc/css/base.css?1607170150.25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003277s ]
+ERR: 无法加载模块:Pc
+
+[ 2018-04-23T09:52:07+08:00 ] ::1 /pc/jsmin/fml.js?1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002915s ]
+ERR: 无法加载模块:Pc
+
+[ 2018-04-23T09:52:07+08:00 ] ::1 /pc/css/page/welcome.css?1607170150.25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005135s ]
+ERR: 无法加载模块:Pc
+
+[ 2018-04-23T09:52:07+08:00 ] ::1 /pc/jsmin/jquery.js?1.12.4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000345s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003051s ]
+ERR: 无法加载模块:Pc
+
+[ 2018-04-23T09:52:07+08:00 ] ::1 /__static/logger/0.1.8/logger.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002885s ]
+ERR: 无法加载模块:__static
+
+[ 2018-04-23T09:52:08+08:00 ] ::1 /p1/160810/idid_ifrtom3dmqygcojumezdambqhayde_6x10.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002554s ]
+ERR: 无法加载模块:P1
+
+[ 2018-04-23T09:52:08+08:00 ] ::1 /pc/~page/welcome+base?1607170150.25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002473s ]
+ERR: 无法加载模块:Pc
+
+[ 2018-04-23T09:52:08+08:00 ] ::1 /p1/160722/idid_ie4wem3fgazwcolfhezdambqgqyde_145x71.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004624s ]
+ERR: 无法加载模块:P1
+
+[ 2018-04-23T09:52:08+08:00 ] ::1 /__newtown/im_web/assets/common/openim/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004724s ]
+ERR: 无法加载模块:__newtown
+
+[ 2018-04-23T09:52:08+08:00 ] ::1 /p2/160804/1rp_49cgihk50031c69jjk51ilkjk4950_210x157.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000301s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003925s ]
+ERR: 无法加载模块:P2
+
+[ 2018-04-23T09:52:08+08:00 ] ::1 /p2/160810/1sy_4ibl936dd3lbj53f44l1dia5355ij_150x71.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002899s ]
+ERR: 无法加载模块:P2
+
+[ 2018-04-23T09:52:08+08:00 ] ::1 /new1/v1/bdefaultavatar/03.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015894s ]
+ERR: 无法加载模块:New1
+
+[ 2018-04-23T09:52:08+08:00 ] ::1 /p2/160810/1sy_6g3edk5k669kac3fbfd0ch589b895_150x71.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003063s ]
+ERR: 无法加载模块:P2
+
+[ 2018-04-23T09:52:08+08:00 ] ::1 /p2/160810/1sy_1fhk6gjg7kegc3c819eji5ic8c7ih_150x71.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000177s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005650s ]
+ERR: 无法加载模块:P2
+
+[ 2018-04-23T09:52:08+08:00 ] ::1 /p2/160810/1sy_2lh64bgkhh7388g20f1fhd8kigd94_150x71.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003558s ]
+ERR: 无法加载模块:P2
+
+[ 2018-04-23T09:52:08+08:00 ] ::1 /p2/160811/1c2_54dck82g0jh2kj5c79h47l7al8e0d_305x589.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031303s ]
+ERR: 无法加载模块:P2
+
+[ 2018-04-23T09:52:08+08:00 ] ::1 /p2/160810/1sy_7kgkelaf2k0kh060dbh8d6cife273_150x71.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000134s ]
+INFO: [ app_init ] --END-- [ RunTime:0.042368s ]
+ERR: 无法加载模块:P2
+
+[ 2018-04-23T09:52:08+08:00 ] ::1 /p2/160810/1sy_2471h8c3dkjag22eiecb5hf77fli5_150x71.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000181s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003120s ]
+ERR: 无法加载模块:P2
+
+[ 2018-04-23T09:52:08+08:00 ] ::1 /p2/160810/1sy_02laf68dbg3blj2ljibf22lckk05i_150x71.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017126s ]
+ERR: 无法加载模块:P2
+
+[ 2018-04-23T09:52:08+08:00 ] ::1 /p2/160802/7e_0h22fa0g03cgl0c5676cb6k2ii71h_140x140.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002690s ]
+ERR: 无法加载模块:P2
+
+[ 2018-04-23T09:52:08+08:00 ] ::1 /p2/160802/7e_74j23d2a5f5j3bj31h70375gbeec1_100x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004427s ]
+ERR: 无法加载模块:P2
+
+[ 2018-04-23T09:52:08+08:00 ] ::1 /p2/160802/7e_61hjl8kjfjfagkg3cdaj05fghck9c_100x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003261s ]
+ERR: 无法加载模块:P2
+
+[ 2018-04-23T09:52:08+08:00 ] ::1 /p2/160810/1sy_5b6aikjb3cgdk9jj8j65h5dafh13i_150x71.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003372s ]
+ERR: 无法加载模块:P2
+
+[ 2018-04-23T09:52:09+08:00 ] ::1 /pc/~page/welcome+base?1607170150.25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007582s ]
+ERR: 无法加载模块:Pc
+
+[ 2018-04-23T09:52:09+08:00 ] ::1 /pic/_o/75/6e/2f6871f198c0bd7615ffbf9a2f5f_49_48.c5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002275s ]
+ERR: 无法加载模块:Pic
+
+[ 2018-04-23T15:20:02+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002634s ]
+ERR: 无法加载模块:Favicon
+
+[ 2018-04-23T17:11:00+08:00 ] ::1 /Public/Admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002560s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-23T17:12:04+08:00 ] ::1 /Public/Admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004170s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-23T17:14:21+08:00 ] ::1 /Public/Admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003356s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-23T17:26:58+08:00 ] ::1 /Public/Admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003914s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-23T17:27:31+08:00 ] ::1 /Public/Admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000702s ]
+INFO: [ app_init ] --END-- [ RunTime:0.033541s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-23T17:29:55+08:00 ] ::1 /Public/Admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010240s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-23T17:34:33+08:00 ] ::1 /Public/Admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000279s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017234s ]
+ERR: 无法加载模块:Public
+

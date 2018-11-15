@@ -1,0 +1,1414 @@
+[ 2018-05-05T08:52:13+08:00 ] ::1 /index.php/Home/Goods/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.033624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021696s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.5736s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2018-05-05T08:52:21+08:00 ] ::1 /index.php/Home/Goods/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000192s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005356s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0029s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2018-05-05T08:52:28+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000189s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004715s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.009275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.010255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.217208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.218162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.025922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026884s ]
+
+[ 2018-05-05T08:52:33+08:00 ] ::1 /index.php/Home/Goods/list1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005197s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ds_goods` INNER JOIN ds_brand on ds_goods.brand_id=ds_brand.brand_id   [ RunTime:0.2218s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.005669s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006560s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 944 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 944 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 945 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 945 行.
+NOTIC: [8] Use of undefined constant h - assumed 'h' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 945 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 945 行.
+NOTIC: [2] Division by zero F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 945 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 945 行.
+NOTIC: [8] Use of undefined constant w - assumed 'w' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 945 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 945 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 945 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 945 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 946 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 946 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 946 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 947 行.
+NOTIC: [8] Use of undefined constant lefttop_taglist - assumed 'lefttop_taglist' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 947 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 947 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 950 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 950 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 952 行.
+NOTIC: [8] Use of undefined constant cfav - assumed 'cfav' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 952 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 954 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 954 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 954 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 954 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.181956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.182871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006825s ]
+
+[ 2018-05-05T08:52:37+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000190s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004808s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ds_goods` INNER JOIN ds_brand on ds_goods.brand_id=ds_brand.brand_id  WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0496s ]
+SQL: SHOW COLUMNS FROM `ds_goods_attr` [ RunTime:0.0022s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) ORDER BY a.attr_id  [ RunTime:0.0137s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) GROUP BY a.attr_id  [ RunTime:0.0305s ]
+SQL: SHOW COLUMNS FROM `ds_goods_gallery` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ds_goods_gallery` WHERE ( goods_id=1 )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003699s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004823s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004478s ]
+
+[ 2018-05-05T08:52:41+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/shop.html?callback=jQuery111105789183547745196_1525481560956&_=1525481560957
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000380s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005249s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0034s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'shop' in 'where clause'
+
+[ 2018-05-05T08:53:15+08:00 ] ::1 /index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000191s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004389s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000910s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001666s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005844s ]
+
+[ 2018-05-05T08:53:25+08:00 ] ::1 /index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000881s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008422s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005127s ]
+
+[ 2018-05-05T08:53:29+08:00 ] ::1 /index.php/Home/Login/dolog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004077s ]
+SQL: SHOW COLUMNS FROM `ds_users` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `ds_users` WHERE ( user_name='小仙女' and password='202cb962ac59075b964b07152d234b70' ) LIMIT 1   [ RunTime:0.0537s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000640s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001790s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005954s ]
+
+[ 2018-05-05T08:53:31+08:00 ] ::1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006271s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007636s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.008424s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002715s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003586s ]
+
+[ 2018-05-05T08:53:32+08:00 ] ::1 /index.php/Home/Index/pc/jsmin/base.js?1607170150.25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000198s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004276s ]
+ERR: 非法操作:pc
+
+[ 2018-05-05T08:53:32+08:00 ] ::1 /index.php/Home/Index/pc/jsmin/page/welcome.js?1607170150.25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000177s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004343s ]
+ERR: 非法操作:pc
+
+[ 2018-05-05T08:53:35+08:00 ] ::1 /index.php/Home/Goods/list1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004429s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ds_goods` INNER JOIN ds_brand on ds_goods.brand_id=ds_brand.brand_id   [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.006121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007041s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 944 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 944 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 945 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 945 行.
+NOTIC: [8] Use of undefined constant h - assumed 'h' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 945 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 945 行.
+NOTIC: [2] Division by zero F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 945 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 945 行.
+NOTIC: [8] Use of undefined constant w - assumed 'w' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 945 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 945 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 945 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 945 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 946 行.
+NOTIC: [8] Use of undefined constant show - assumed 'show' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 946 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 946 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 947 行.
+NOTIC: [8] Use of undefined constant lefttop_taglist - assumed 'lefttop_taglist' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 947 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 947 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 950 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 950 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 952 行.
+NOTIC: [8] Use of undefined constant cfav - assumed 'cfav' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 952 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 954 行.
+NOTIC: [8] Use of undefined constant link - assumed 'link' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 954 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 954 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' F:\dianshang\Application\Runtime\Cache\Home\4557fde18c5f27eb9c11c2138f369f43.php 第 954 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.149154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004607s ]
+
+[ 2018-05-05T08:53:38+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005681s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `ds_goods` INNER JOIN ds_brand on ds_goods.brand_id=ds_brand.brand_id  WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `ds_goods_attr` [ RunTime:0.0027s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) ORDER BY a.attr_id  [ RunTime:0.0023s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) GROUP BY a.attr_id  [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `ds_goods_gallery` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `ds_goods_gallery` WHERE ( goods_id=1 )  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003506s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004422s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004530s ]
+
+[ 2018-05-05T08:53:39+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/shop.html?callback=jQuery111108199166594430263_1525481619571&_=1525481619572
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000186s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004757s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0044s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'shop' in 'where clause'
+
+[ 2018-05-05T08:53:45+08:00 ] ::1 /index.php/Home/Goods/che.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000175s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003700s ]
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ds_products` WHERE ( goods_id=1 and attr_list='粉色,50' ) LIMIT 1   [ RunTime:0.0362s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined variable: user_id F:\dianshang\Application\Home\Controller\GoodsController.class.php 第 66 行.
+SQL: SELECT * FROM `ds_cart` WHERE ( user_id='' and goods_sn='hzpjmkh100001' )  [ RunTime:0.0852s ]
+SQL: INSERT INTO `ds_cart` (`goods_id`,`goods_sn`,`goods_name`,`product_id`,`market_price`,`goods_price`,`goods_attr`,`buy_number`,`user_id`) VALUES ('1','hzpjmkh100001','镜面口红','1','400.00','550.00','粉色,50','1','1') [ RunTime:0.0565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003941s ]
+
+[ 2018-05-05T08:54:01+08:00 ] ::1 /index.php/Home/Goods/che.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000192s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004236s ]
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ds_products` WHERE ( goods_id=1 and attr_list='粉色,50' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.1086s ]
+NOTIC: [8] Undefined variable: user_id F:\dianshang\Application\Home\Controller\GoodsController.class.php 第 66 行.
+SQL: SELECT * FROM `ds_cart` WHERE ( user_id='' and goods_sn='hzpjmkh100001' )  [ RunTime:0.0015s ]
+SQL: INSERT INTO `ds_cart` (`goods_id`,`goods_sn`,`goods_name`,`product_id`,`market_price`,`goods_price`,`goods_attr`,`buy_number`,`user_id`) VALUES ('1','hzpjmkh100001','镜面口红','1','400.00','550.00','粉色,50','1','1') [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004109s ]
+
+[ 2018-05-05T08:54:11+08:00 ] ::1 /index.php/Home/Goods/car.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000177s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012483s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ds_cart` WHERE ( user_id=1 )  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000576s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001774s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004356s ]
+
+[ 2018-05-05T08:55:26+08:00 ] ::1 /index.php/Home/Goods/che.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004159s ]
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ds_products` WHERE ( goods_id=1 and attr_list='橘色,50' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0021s ]
+NOTIC: [8] Undefined variable: user_id F:\dianshang\Application\Home\Controller\GoodsController.class.php 第 66 行.
+SQL: SELECT * FROM `ds_cart` WHERE ( user_id='' and goods_sn='hzpjmkh100004' )  [ RunTime:0.0012s ]
+SQL: INSERT INTO `ds_cart` (`goods_id`,`goods_sn`,`goods_name`,`product_id`,`market_price`,`goods_price`,`goods_attr`,`buy_number`,`user_id`) VALUES ('1','hzpjmkh100004','镜面口红','4','400.00','150.00','橘色,50','1','1') [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004259s ]
+
+[ 2018-05-05T08:56:03+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000191s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005439s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `ds_goods` INNER JOIN ds_brand on ds_goods.brand_id=ds_brand.brand_id  WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ds_goods_attr` [ RunTime:0.0028s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) ORDER BY a.attr_id  [ RunTime:0.0027s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) GROUP BY a.attr_id  [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `ds_goods_gallery` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `ds_goods_gallery` WHERE ( goods_id=1 )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004451s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005583s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.180148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.181174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005287s ]
+
+[ 2018-05-05T08:56:04+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/shop.html?callback=jQuery11110724170643637329_1525481764243&_=1525481764244
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000212s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005371s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0034s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'shop' in 'where clause'
+
+[ 2018-05-05T08:56:07+08:00 ] ::1 /index.php/Home/Goods/che.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000178s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003916s ]
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ds_products` WHERE ( goods_id=1 and attr_list='橘色,50' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0021s ]
+NOTIC: [8] Undefined variable: user_id F:\dianshang\Application\Home\Controller\GoodsController.class.php 第 66 行.
+SQL: SELECT * FROM `ds_cart` WHERE ( user_id='' and goods_sn='hzpjmkh100004' )  [ RunTime:0.0012s ]
+SQL: INSERT INTO `ds_cart` (`goods_id`,`goods_sn`,`goods_name`,`product_id`,`market_price`,`goods_price`,`goods_attr`,`buy_number`,`user_id`) VALUES ('1','hzpjmkh100004','镜面口红','4','400.00','150.00','橘色,50','1','1') [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004405s ]
+
+[ 2018-05-05T08:56:16+08:00 ] ::1 /index.php/Home/Goods/car.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000179s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007061s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ds_cart` WHERE ( user_id=1 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000572s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001526s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004545s ]
+
+[ 2018-05-05T08:57:36+08:00 ] ::1 /index.php/Home/Goods/car.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004319s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ds_cart` WHERE ( user_id=1 )  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000687s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001675s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004310s ]
+
+[ 2018-05-05T08:57:40+08:00 ] ::1 /index.php/Home/Goods/che.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003646s ]
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ds_products` WHERE ( goods_id=1 and attr_list='橘色,50' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined variable: user_id F:\dianshang\Application\Home\Controller\GoodsController.class.php 第 66 行.
+SQL: SELECT * FROM `ds_cart` WHERE ( user_id='' and goods_sn='hzpjmkh100004' )  [ RunTime:0.0012s ]
+SQL: INSERT INTO `ds_cart` (`goods_id`,`goods_sn`,`goods_name`,`product_id`,`market_price`,`goods_price`,`goods_attr`,`buy_number`,`user_id`) VALUES ('1','hzpjmkh100004','镜面口红','4','400.00','150.00','橘色,50','1','1') [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003974s ]
+
+[ 2018-05-05T08:58:54+08:00 ] ::1 /index.php/Home/Goods/che.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004273s ]
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `ds_products` WHERE ( goods_id=1 and attr_list='橘色,50' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: user_id F:\dianshang\Application\Home\Controller\GoodsController.class.php 第 66 行.
+SQL: SELECT * FROM `ds_cart` WHERE ( user_id='' and goods_sn='hzpjmkh100004' )  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: user_id F:\dianshang\Application\Home\Controller\GoodsController.class.php 第 68 行.
+SQL: INSERT INTO `ds_cart` (`goods_id`,`goods_sn`,`goods_name`,`product_id`,`market_price`,`goods_price`,`goods_attr`,`buy_number`,`user_id`) VALUES ('1','hzpjmkh100004','镜面口红','4','400.00','150.00','橘色,50','1','1') [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004265s ]
+
+[ 2018-05-05T09:01:53+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005060s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ds_goods` INNER JOIN ds_brand on ds_goods.brand_id=ds_brand.brand_id  WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `ds_goods_attr` [ RunTime:0.0026s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) ORDER BY a.attr_id  [ RunTime:0.0021s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) GROUP BY a.attr_id  [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `ds_goods_gallery` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ds_goods_gallery` WHERE ( goods_id=1 )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.006054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007498s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.148221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.149226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008038s ]
+
+[ 2018-05-05T09:01:54+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/shop.html?callback=jQuery111103131339653830061_1525482114664&_=1525482114665
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000211s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005782s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0046s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'shop' in 'where clause'
+
+[ 2018-05-05T09:01:58+08:00 ] ::1 /index.php/Home/Goods/che.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003818s ]
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ds_products` WHERE ( goods_id=1 and attr_list='粉色,50' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined variable: user_id F:\dianshang\Application\Home\Controller\GoodsController.class.php 第 66 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and goods_sn=hzpjmkh100001 )' at line 1
+
+[ 2018-05-05T09:02:10+08:00 ] ::1 /index.php/Home/Goods/che.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003931s ]
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ds_products` WHERE ( goods_id=1 and attr_list='粉色,50' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: user_id F:\dianshang\Application\Home\Controller\GoodsController.class.php 第 66 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and goods_sn=hzpjmkh100001 )' at line 1
+
+[ 2018-05-05T09:04:33+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000211s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007495s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ds_goods` INNER JOIN ds_brand on ds_goods.brand_id=ds_brand.brand_id  WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ds_goods_attr` [ RunTime:0.0032s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) ORDER BY a.attr_id  [ RunTime:0.0030s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) GROUP BY a.attr_id  [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `ds_goods_gallery` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `ds_goods_gallery` WHERE ( goods_id=1 )  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003561s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004484s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004794s ]
+
+[ 2018-05-05T09:04:35+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/shop.html?callback=jQuery11110840475974718375_1525482274862&_=1525482274863
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006097s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0030s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'shop' in 'where clause'
+
+[ 2018-05-05T09:04:38+08:00 ] ::1 /index.php/Home/Goods/che.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000194s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004331s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\dianshang\Application\Home\Controller\GoodsController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ds_products` WHERE ( goods_id=1 and attr_list='' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined variable: user_id F:\dianshang\Application\Home\Controller\GoodsController.class.php 第 66 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and goods_sn='' )' at line 1
+
+[ 2018-05-05T09:05:08+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000180s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004688s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `ds_goods` INNER JOIN ds_brand on ds_goods.brand_id=ds_brand.brand_id  WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `ds_goods_attr` [ RunTime:0.0041s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) ORDER BY a.attr_id  [ RunTime:0.0030s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) GROUP BY a.attr_id  [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `ds_goods_gallery` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ds_goods_gallery` WHERE ( goods_id=1 )  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003941s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007793s ]
+
+[ 2018-05-05T09:05:09+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/shop.html?callback=jQuery1111022997484394747292_1525482309666&_=1525482309667
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005005s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0032s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'shop' in 'where clause'
+
+[ 2018-05-05T09:05:20+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000187s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004128s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `ds_goods` INNER JOIN ds_brand on ds_goods.brand_id=ds_brand.brand_id  WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `ds_goods_attr` [ RunTime:0.0031s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) ORDER BY a.attr_id  [ RunTime:0.0023s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) GROUP BY a.attr_id  [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `ds_goods_gallery` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ds_goods_gallery` WHERE ( goods_id=1 )  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.005135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.159053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.160440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006111s ]
+
+[ 2018-05-05T09:05:21+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/shop.html?callback=jQuery1111015966033502673316_1525482321642&_=1525482321643
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003955s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0033s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'shop' in 'where clause'
+
+[ 2018-05-05T09:05:26+08:00 ] ::1 /index.php/Home/Goods/che.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000255s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017103s ]
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ds_products` WHERE ( goods_id=1 and attr_list='粉色,50' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0021s ]
+NOTIC: [8] Undefined variable: user_id F:\dianshang\Application\Home\Controller\GoodsController.class.php 第 66 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and goods_sn='hzpjmkh100001' )' at line 1
+
+[ 2018-05-05T09:05:53+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000194s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026098s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `ds_goods` INNER JOIN ds_brand on ds_goods.brand_id=ds_brand.brand_id  WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `ds_goods_attr` [ RunTime:0.0151s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) ORDER BY a.attr_id  [ RunTime:0.0028s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) GROUP BY a.attr_id  [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `ds_goods_gallery` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `ds_goods_gallery` WHERE ( goods_id=1 )  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004486s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005389s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.227057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.228485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.036165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.027470s ]
+
+[ 2018-05-05T09:05:55+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/shop.html?callback=jQuery11110739248506163775_1525482355208&_=1525482355209
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000271s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004276s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0033s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'shop' in 'where clause'
+
+[ 2018-05-05T09:05:58+08:00 ] ::1 /index.php/Home/Goods/che.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000181s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005239s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\dianshang\Application\Home\Controller\GoodsController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ds_products` WHERE ( goods_id=1 and attr_list='' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0026s ]
+NOTIC: [8] Undefined variable: user_id F:\dianshang\Application\Home\Controller\GoodsController.class.php 第 66 行.
+SQL: SELECT * FROM `ds_cart` WHERE ( user_id='' and goods_sn='' )  [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: user_id F:\dianshang\Application\Home\Controller\GoodsController.class.php 第 68 行.
+
+[ 2018-05-05T09:06:07+08:00 ] ::1 /index.php/Home/Goods/che.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000225s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024109s ]
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ds_products` WHERE ( goods_id=1 and attr_list='粉色,50' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: user_id F:\dianshang\Application\Home\Controller\GoodsController.class.php 第 66 行.
+SQL: SELECT * FROM `ds_cart` WHERE ( user_id='' and goods_sn='hzpjmkh100001' )  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: user_id F:\dianshang\Application\Home\Controller\GoodsController.class.php 第 68 行.
+
+[ 2018-05-05T09:08:43+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000166s ]
+INFO: [ app_init ] --END-- [ RunTime:0.038681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012135s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ds_goods` INNER JOIN ds_brand on ds_goods.brand_id=ds_brand.brand_id  WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `ds_goods_attr` [ RunTime:0.0026s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) ORDER BY a.attr_id  [ RunTime:0.0030s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) GROUP BY a.attr_id  [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `ds_goods_gallery` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ds_goods_gallery` WHERE ( goods_id=1 )  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003694s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004582s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004950s ]
+
+[ 2018-05-05T09:08:45+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/shop.html?callback=jQuery111104941775451978714_1525482525110&_=1525482525111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000134s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004279s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0028s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'shop' in 'where clause'
+
+[ 2018-05-05T09:09:52+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000186s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004207s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `ds_goods` INNER JOIN ds_brand on ds_goods.brand_id=ds_brand.brand_id  WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ds_goods_attr` [ RunTime:0.0028s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) ORDER BY a.attr_id  [ RunTime:0.0027s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) GROUP BY a.attr_id  [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `ds_goods_gallery` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ds_goods_gallery` WHERE ( goods_id=1 )  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004480s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005508s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.132142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.133526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014639s ]
+
+[ 2018-05-05T09:09:54+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/shop.html?callback=jQuery1111005159569112421836_1525482594095&_=1525482594096
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008960s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0035s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'shop' in 'where clause'
+
+[ 2018-05-05T09:10:00+08:00 ] ::1 /index.php/Home/Goods/che.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000192s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011477s ]
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `ds_products` WHERE ( goods_id=1 and attr_list='粉色,50' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ds_cart` WHERE ( user_id='1' and goods_sn='hzpjmkh100001' )  [ RunTime:0.0013s ]
+SQL: INSERT INTO `ds_cart` (`goods_id`,`goods_sn`,`goods_name`,`product_id`,`market_price`,`goods_price`,`goods_attr`,`buy_number`,`user_id`) VALUES ('1','hzpjmkh100001','镜面口红','1','400.00','550.00','粉色,50','1','1') [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004614s ]
+
+[ 2018-05-05T09:10:12+08:00 ] ::1 /index.php/Home/Goods/car.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012685s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ds_cart` WHERE ( user_id=1 )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000950s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002019s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004213s ]
+
+[ 2018-05-05T09:10:26+08:00 ] ::1 /index.php/Home/Goods/che.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000181s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003931s ]
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ds_products` WHERE ( goods_id=1 and attr_list='粉色,50' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `ds_cart` WHERE ( user_id='1' and goods_sn='hzpjmkh100001' )  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: buy_number F:\dianshang\Application\Home\Controller\GoodsController.class.php 第 72 行.
+NOTIC: [8] Undefined index: cart_id F:\dianshang\Application\Home\Controller\GoodsController.class.php 第 76 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2018-05-05T09:12:24+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000464s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007091s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `ds_goods` INNER JOIN ds_brand on ds_goods.brand_id=ds_brand.brand_id  WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0279s ]
+SQL: SHOW COLUMNS FROM `ds_goods_attr` [ RunTime:0.0057s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) ORDER BY a.attr_id  [ RunTime:0.0070s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) GROUP BY a.attr_id  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ds_goods_gallery` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `ds_goods_gallery` WHERE ( goods_id=1 )  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003373s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005603s ]
+
+[ 2018-05-05T09:12:26+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/shop.html?callback=jQuery1111007254656757689504_1525482745954&_=1525482745955
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006256s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0031s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'shop' in 'where clause'
+
+[ 2018-05-05T09:12:34+08:00 ] ::1 /index.php/Home/Goods/car.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000612s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004917s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ds_cart` WHERE ( user_id=1 )  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000775s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001630s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003922s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008140s ]
+
+[ 2018-05-05T09:12:39+08:00 ] ::1 /index.php/Home/Goods/che.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000194s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006718s ]
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `ds_products` WHERE ( goods_id=1 and attr_list='粉色,50' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ds_cart` WHERE ( user_id='1' and goods_sn='hzpjmkh100001' )  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: buy_number F:\dianshang\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8] Undefined index: cart_id F:\dianshang\Application\Home\Controller\GoodsController.class.php 第 74 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004441s ]
+
+[ 2018-05-05T09:12:48+08:00 ] ::1 /index.php/Home/Goods/car.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000195s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014986s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ds_cart` WHERE ( user_id=1 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006323s ]
+
+[ 2018-05-05T09:13:46+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010204s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `ds_goods` INNER JOIN ds_brand on ds_goods.brand_id=ds_brand.brand_id  WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `ds_goods_attr` [ RunTime:0.0028s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) ORDER BY a.attr_id  [ RunTime:0.0024s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) GROUP BY a.attr_id  [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `ds_goods_gallery` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ds_goods_gallery` WHERE ( goods_id=1 )  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003016s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003845s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004195s ]
+
+[ 2018-05-05T09:13:48+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/shop.html?callback=jQuery111101688314682472516_1525482827952&_=1525482827953
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008904s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0034s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'shop' in 'where clause'
+
+[ 2018-05-05T09:13:56+08:00 ] ::1 /index.php/Home/Goods/che.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000326s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004262s ]
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `ds_products` WHERE ( goods_id=1 and attr_list='粉色,50' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ds_cart` WHERE ( user_id='1' and goods_sn='hzpjmkh100001' )  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: cart_id F:\dianshang\Application\Home\Controller\GoodsController.class.php 第 74 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006152s ]
+
+[ 2018-05-05T09:14:33+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003798s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ds_goods` INNER JOIN ds_brand on ds_goods.brand_id=ds_brand.brand_id  WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ds_goods_attr` [ RunTime:0.0029s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) ORDER BY a.attr_id  [ RunTime:0.0053s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) GROUP BY a.attr_id  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ds_goods_gallery` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ds_goods_gallery` WHERE ( goods_id=1 )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.005497s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006402s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012719s ]
+
+[ 2018-05-05T09:14:34+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/shop.html?callback=jQuery1111048825422973637256_1525482874399&_=1525482874400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005321s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0036s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'shop' in 'where clause'
+
+[ 2018-05-05T09:14:35+08:00 ] ::1 /index.php/Home/Goods/car.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014543s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ds_cart` WHERE ( user_id=1 )  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000625s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001589s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003610s ]
+
+[ 2018-05-05T09:14:41+08:00 ] ::1 /index.php/Home/Goods/che.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000187s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005862s ]
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ds_products` WHERE ( goods_id=1 and attr_list='粉色,50' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `ds_cart` WHERE ( user_id='1' and goods_sn='hzpjmkh100001' )  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: cart_id F:\dianshang\Application\Home\Controller\GoodsController.class.php 第 74 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004514s ]
+
+[ 2018-05-05T09:15:16+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000234s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016530s ]
+
+[ 2018-05-05T09:15:18+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000206s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005280s ]
+
+[ 2018-05-05T09:15:24+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000185s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004614s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `ds_goods` INNER JOIN ds_brand on ds_goods.brand_id=ds_brand.brand_id  WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `ds_goods_attr` [ RunTime:0.0026s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) ORDER BY a.attr_id  [ RunTime:0.0027s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) GROUP BY a.attr_id  [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `ds_goods_gallery` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ds_goods_gallery` WHERE ( goods_id=1 )  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003912s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002928s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007339s ]
+
+[ 2018-05-05T09:15:26+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/shop.html?callback=jQuery111105319994248702165_1525482925765&_=1525482925766
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005998s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0036s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'shop' in 'where clause'
+
+[ 2018-05-05T09:15:31+08:00 ] ::1 /index.php/Home/Goods/che.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000573s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006902s ]
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ds_products` WHERE ( goods_id=1 and attr_list='粉色,50' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ds_cart` WHERE ( user_id='1' and goods_sn='hzpjmkh100001' )  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: cart_id F:\dianshang\Application\Home\Controller\GoodsController.class.php 第 74 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004697s ]
+
+[ 2018-05-05T09:16:10+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014806s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `ds_goods` INNER JOIN ds_brand on ds_goods.brand_id=ds_brand.brand_id  WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `ds_goods_attr` [ RunTime:0.0033s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) ORDER BY a.attr_id  [ RunTime:0.0028s ]
+SQL: SELECT * FROM ds_goods_attr a INNER JOIN ds_attribute b on a.attr_id=b.attr_id  WHERE ( goods_id=1 ) GROUP BY a.attr_id  [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `ds_goods_gallery` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ds_goods_gallery` WHERE ( goods_id=1 )  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003852s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003890s ]
+
+[ 2018-05-05T09:16:12+08:00 ] ::1 /index.php/Home/Goods/goodsdata/goods_id/shop.html?callback=jQuery111109398346501795434_1525482972067&_=1525482972068
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000134s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004803s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0038s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'shop' in 'where clause'
+
+[ 2018-05-05T09:16:14+08:00 ] ::1 /index.php/Home/Goods/che.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000195s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004899s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\dianshang\Application\Home\Controller\GoodsController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ds_products` WHERE ( goods_id=1 and attr_list='' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ds_cart` WHERE ( user_id='1' and goods_sn='' )  [ RunTime:0.0012s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'goods_sn' cannot be null
+
+[ 2018-05-05T09:16:22+08:00 ] ::1 /index.php/Home/Goods/che.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000278s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004831s ]
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ds_products` WHERE ( goods_id=1 and attr_list='粉色,50' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ds_cart` WHERE ( user_id='1' and goods_sn='hzpjmkh100001' )  [ RunTime:0.0017s ]
+SQL: UPDATE `ds_cart` SET `buy_number`='2' WHERE `cart_id` = 17 [ RunTime:0.0389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004379s ]
+
+[ 2018-05-05T09:16:27+08:00 ] ::1 /index.php/Home/Goods/car.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000214s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004306s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ds_cart` WHERE ( user_id=1 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000947s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001937s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004594s ]
+
+[ 2018-05-05T09:16:38+08:00 ] ::1 /index.php/Home/Goods/che.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000204s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005272s ]
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `ds_products` WHERE ( goods_id=1 and attr_list='橘色,50' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `ds_cart` WHERE ( user_id='1' and goods_sn='hzpjmkh100004' )  [ RunTime:0.0013s ]
+SQL: INSERT INTO `ds_cart` (`goods_id`,`goods_sn`,`goods_name`,`product_id`,`market_price`,`goods_price`,`goods_attr`,`buy_number`,`user_id`) VALUES ('1','hzpjmkh100004','镜面口红','4','400.00','150.00','橘色,50','3','1') [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004201s ]
+
+[ 2018-05-05T09:16:41+08:00 ] ::1 /index.php/Home/Goods/car.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000206s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004844s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `ds_cart` WHERE ( user_id=1 )  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000847s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005537s ]
+
+[ 2018-05-05T09:16:49+08:00 ] ::1 /index.php/Home/Goods/che.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000185s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004197s ]
+SQL: SHOW COLUMNS FROM `ds_products` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ds_products` WHERE ( goods_id=1 and attr_list='橘色,50' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `ds_goods` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ds_goods` WHERE ( goods_id=1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ds_cart` WHERE ( user_id='1' and goods_sn='hzpjmkh100004' )  [ RunTime:0.0014s ]
+SQL: UPDATE `ds_cart` SET `buy_number`='5' WHERE `cart_id` = 18 [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004425s ]
+
+[ 2018-05-05T09:16:53+08:00 ] ::1 /index.php/Home/Goods/car.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004952s ]
+SQL: SHOW COLUMNS FROM `ds_cart` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `ds_cart` WHERE ( user_id=1 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000896s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002603s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005235s ]
+

@@ -1,0 +1,72 @@
+[ 2018-05-02T09:12:37+08:00 ] ::1 /Public/Home/pc/~page/welcome+base.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000199s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028520s ]
+ERR: 无法加载模块:Public
+
+[ 2018-05-02T09:12:40+08:00 ] ::1 /pc/jsmin/page/welcome.js?1607170150.25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005949s ]
+ERR: 无法加载模块:Pc
+
+[ 2018-05-02T09:12:40+08:00 ] ::1 /pc/jsmin/base.js?1607170150.25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000177s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006972s ]
+ERR: 无法加载模块:Pc
+
+[ 2018-05-02T09:20:21+08:00 ] ::1 /Public/Admin/js/jquery.mim.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000177s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014949s ]
+ERR: 无法加载模块:Public
+
+[ 2018-05-02T09:20:23+08:00 ] ::1 /Public/Admin/js/jquery.mim.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012361s ]
+ERR: 无法加载模块:Public
+
+[ 2018-05-02T10:55:34+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000177s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004293s ]
+ERR: 无法加载模块:Favicon
+
+[ 2018-05-02T16:11:06+08:00 ] ::1 /Public/Home/pc/~page/welcome+base.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016881s ]
+ERR: 无法加载模块:Public
+
+[ 2018-05-02T16:11:07+08:00 ] ::1 /Public/Home/pc/~page/welcome+base.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000168s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003948s ]
+ERR: 无法加载模块:Public
+
+[ 2018-05-02T16:11:07+08:00 ] ::1 /pc/jsmin/base.js?1607170150.25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000168s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006670s ]
+ERR: 无法加载模块:Pc
+
+[ 2018-05-02T16:11:07+08:00 ] ::1 /pc/jsmin/page/welcome.js?1607170150.25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000196s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005349s ]
+ERR: 无法加载模块:Pc
+
+[ 2018-05-02T16:11:44+08:00 ] ::1 /Public/Home/mycart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000776s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007283s ]
+ERR: 无法加载模块:Public
+
+[ 2018-05-02T16:11:44+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004143s ]
+ERR: 无法加载模块:Favicon
+

@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>购物车</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<form action="{:U('Goods/order')}" method="post">
+			<input type="button" value="全选">
+			<table>
+				<foreach name="res" item="v" key="k">
+				<tr>
+					<td><input type="checkbox" name="cart_id" value="{$v.cart_id}"></td>
+					<td><span><img src=""></span></td>
+					<td>{$v['goods_name']|urldecode}</td>
+					<td>{$v.goods_attr|urldecode}</td>
+					<td>原价：{$v.market_price}   现价：{$v.goods_price}</td>
+					<td><button>-</button><input type="text" name="number" value="{$v.buy_number}"/><button>+</button></td>
+					<td>￥{$v['goods_price']*$v['buy_number']}</td>
+					<td><a>删除</a></td>
+				</tr>
+				</foreach>
+			</table>
+			<input type="submit" value="购买">
+		</form>
+	</body>
+
+</html>
